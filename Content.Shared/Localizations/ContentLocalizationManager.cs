@@ -43,6 +43,12 @@ namespace Content.Shared.Localizations
 
             if (!_loc.HasCulture(cultureEn))
                 _loc.LoadCulture(cultureEn);
+
+            // Frosthold-Start: the fallback culture needs the loc functions too, otherwise every english
+            // string using NATURALFIXED() and friends fails to resolve when a translation is missing.
+            RegisterLocFunctions(cultureEn);
+            // Frosthold-End
+
             _loc.SetFallbackCluture(cultureEn); // I don't think there's any reason to change the fallback culture.
 
             _cfg.OnValueChanged(CCVars.ServerLanguage, OnCultureUpdate, true);
@@ -54,6 +60,14 @@ namespace Content.Shared.Localizations
             if (!_loc.HasCulture(culture))
                 _loc.LoadCulture(culture);
 
+            RegisterLocFunctions(culture);
+
+            _loc.DefaultCulture = culture;
+            _loc.ReloadLocalizations();
+        }
+
+        private void RegisterLocFunctions(CultureInfo culture)
+        {
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -68,9 +82,6 @@ namespace Content.Shared.Localizations
 
             _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
             _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural);
-
-            _loc.DefaultCulture = culture;
-            _loc.ReloadLocalizations();
         }
 
         private ILocValue FormatMany(LocArgs args)
