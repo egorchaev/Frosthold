@@ -1,0 +1,37 @@
+# Деревянная архитектура Frosthold. Спрайты: Wandom, CC-BY-SA-3.0
+# (перерисовано с оригиналов SS14/tgstation, см. meta.json).
+# Обсуждение: workshop -> "деревянная плитка и её вариации".
+#
+# Это НЕ замена существующим CE-постройкам, а отдельный набор: он на полклетки
+# ниже, поэтому в одном здании смешивать с CEWallWooden не стоит.
+
+- type: entity
+  id: FHWallWooden
+  parent: CEWallWoodenBase
+  suffix: Frosthold
+  components:
+  - type: Sprite
+    sprite: _Frosthold/Structures/Architecture/Walls/wooden.rsi
+  - type: Icon
+    sprite: _Frosthold/Structures/Architecture/Walls/wooden.rsi
+
+- type: entity
+  id: FHWindowWooden
+  parent: CEWindowWooden
+  suffix: Frosthold
+  components:
+  - type: Sprite
+    sprite: _Frosthold/Structures/Architecture/Windows/wooden.rsi
+  - type: Icon
+    sprite: _Frosthold/Structures/Architecture/Windows/wooden.rsi
+
+- type: entity
+  id: FHWoodenDoor
+  parent: CEWoodenDoor
+  suffix: Frosthold
+  components:
+  - type: Sprite
+    sprite: _Frosthold/Structures/Architecture/Doors/wooden_door.rsi
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]

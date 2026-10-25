@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Redrawn to 32x48 dark-fantasy 3/4 style from the original SS14/vgstation/tgstation sprites (see original RSI copyright notes).",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "full"
+    },
+    {
+      "name": "full_top"
+    },
+    {
+      "name": "full_front"
+    },
+    {
+      "name": "window0",
+      "directions": 4
+    },
+    {
+      "name": "window1",
+      "directions": 4
+    },
+    {
+      "name": "window2",
+      "directions": 4
+    },
+    {
+      "name": "window3",
+      "directions": 4
+    },
+    {
+      "name": "window4",
+      "directions": 4
+    },
+    {
+      "name": "window5",
+      "directions": 4
+    },
+    {
+      "name": "window6",
+      "directions": 4
+    },
+    {
+      "name": "window7",
+      "directions": 4
+    },
+    {
+      "name": "window0_top",
+      "directions": 4
+    },
+    {
+      "name": "window1_top",
+      "directions": 4
+    },
+    {
+      "name": "window2_top",
+      "directions": 4
+    },
+    {
+      "name": "window3_top",
+      "directions": 4
+    },
+    {
+      "name": "window4_top",
+      "directions": 4
+    },
+    {
+      "name": "window5_top",
+      "directions": 4
+    },
+    {
+      "name": "window6_top",
+      "directions": 4
+    },
+    {
+      "name": "window7_top",
+      "directions": 4
+    },
+    {
+      "name": "window0_front",
+      "directions": 4
+    },
+    {
+      "name": "window1_front",
+      "directions": 4
+    },
+    {
+      "name": "window2_front",
+      "directions": 4
+    },
+    {
+      "name": "window3_front",
+      "directions": 4
+    },
+    {
+      "name": "window4_front",
+      "directions": 4
+    },
+    {
+      "name": "window5_front",
+      "directions": 4
+    },
+    {
+      "name": "window6_front",
+      "directions": 4
+    },
+    {
+      "name": "window7_front",
+      "directions": 4
+    }
+  ]
+}

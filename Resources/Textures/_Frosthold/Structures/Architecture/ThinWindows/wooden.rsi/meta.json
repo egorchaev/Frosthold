@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Redrawn to 32x48 dark-fantasy 3/4 style from the original SS14/vgstation/tgstation sprites (see original RSI copyright notes).",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "window",
+      "directions": 4
+    }
+  ]
+}

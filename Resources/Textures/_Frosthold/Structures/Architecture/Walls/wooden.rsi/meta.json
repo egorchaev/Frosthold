@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Redrawn to 32x48 dark-fantasy 3/4 style from the original SS14/vgstation/tgstation sprites (see original RSI copyright notes).",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "full"
+    },
+    {
+      "name": "full_top"
+    },
+    {
+      "name": "full_front"
+    },
+    {
+      "name": "wood0",
+      "directions": 4
+    },
+    {
+      "name": "wood1",
+      "directions": 4
+    },
+    {
+      "name": "wood2",
+      "directions": 4
+    },
+    {
+      "name": "wood3",
+      "directions": 4
+    },
+    {
+      "name": "wood4",
+      "directions": 4
+    },
+    {
+      "name": "wood5",
+      "directions": 4
+    },
+    {
+      "name": "wood6",
+      "directions": 4
+    },
+    {
+      "name": "wood7",
+      "directions": 4
+    },
+    {
+      "name": "wood0_top",
+      "directions": 4
+    },
+    {
+      "name": "wood1_top",
+      "directions": 4
+    },
+    {
+      "name": "wood2_top",
+      "directions": 4
+    },
+    {
+      "name": "wood3_top",
+      "directions": 4
+    },
+    {
+      "name": "wood4_top",
+      "directions": 4
+    },
+    {
+      "name": "wood5_top",
+      "directions": 4
+    },
+    {
+      "name": "wood6_top",
+      "directions": 4
+    },
+    {
+      "name": "wood7_top",
+      "directions": 4
+    },
+    {
+      "name": "wood0_front",
+      "directions": 4
+    },
+    {
+      "name": "wood1_front",
+      "directions": 4
+    },
+    {
+      "name": "wood2_front",
+      "directions": 4
+    },
+    {
+      "name": "wood3_front",
+      "directions": 4
+    },
+    {
+      "name": "wood4_front",
+      "directions": 4
+    },
+    {
+      "name": "wood5_front",
+      "directions": 4
+    },
+    {
+      "name": "wood6_front",
+      "directions": 4
+    },
+    {
+      "name": "wood7_front",
+      "directions": 4
+    }
+  ]
+}
